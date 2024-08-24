@@ -183,6 +183,10 @@ main {
     text-align: center;
   }
 
+  .heading-text h1 {
+    font-size: 3rem;
+  }
+
   .heading-stars {
     align-items: center;
     justify-content: center;
