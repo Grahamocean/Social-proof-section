@@ -167,7 +167,7 @@ main {
 
 @media (max-width: 450px) {
   main {
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem;
     /* margin-top: 3rem; */
   }
 
@@ -181,6 +181,8 @@ main {
   .heading-text {
     width: 100%;
     text-align: center;
+    padding: 0;
+    margin-bottom: 2rem;
   }
 
   .heading-text h1 {
@@ -216,8 +218,19 @@ main {
     /* background-color: black; */
   }
 
+  .review-box {
+    gap: 1rem;
+  }
+
   .box {
-    margin-left: none;
+    padding: 3rem;
     height: auto;
   }
+
+  .box:nth-of-type(2) {
+    margin-top: 0rem;
+  }
+  
+  .box:nth-of-type(3) {
+    margin-top: 0rem;
 }
